@@ -1,0 +1,60 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.tm-video-item {
+    width: 250px;
+}
+figure.effect-ming {
+    background-color: #fff;
+}
+figcaption.d-flex {
+    color: #000;
+    border-color: #000;
+}
+/* 容器和按鈕的基本樣式 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* 下拉內容的基本樣式，一開始是隱藏的 */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* 下拉內容的項目樣式 */
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* 項目的滑鼠懸停樣式 */
+  .dropdown-content li:hover {background-color: #f1f1f1;}
+  
+  /* 當滑鼠懸停在按鈕上時顯示下拉內容 */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* 按鈕滑鼠懸停樣式 */
+  .dropdown:hover .dropbtn {
+    background-color: #0ed9cf;
+  }
+  
